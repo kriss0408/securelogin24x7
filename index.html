@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Charles Shop</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background-color: #343a40;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1200x400?text=Charles+Shop') no-repeat center center;
+      background-size: cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+    }
+    .content {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .product-card {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    .product-card img {
+      width: 100%;
+      border-radius: 6px;
+    }
+    .product-card h3 {
+      margin: 15px 0 10px;
+    }
+    .product-card p {
+      margin-bottom: 10px;
+      color: #666;
+    }
+    .footer {
+      background: #343a40;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Charles Shop</h1>
+  </header>
+
+  <div class="hero">
+    Welcome to Charles Shop
+  </div>
+
+  <div class="content">
+    <h2>Featured Products</h2>
+    <p>Explore our latest collection curated just for you.</p>
+  </div>
+
+  <div class="products">
+    <div class="product-card">
+      <img src="https://via.placeholder.com/250x200?text=Product+1" alt="Product 1">
+      <h3>Product 1</h3>
+      <p>High quality item for your daily needs.</p>
+      <strong>$29.99</strong>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/250x200?text=Product+2" alt="Product 2">
+      <h3>Product 2</h3>
+      <p>Stylish and comfortable, perfect for all occasions.</p>
+      <strong>$39.99</strong>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/250x200?text=Product+3" alt="Product 3">
+      <h3>Product 3</h3>
+      <p>Durable, elegant, and affordable.</p>
+      <strong>$19.99</strong>
+    </div>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 Charles Shop. All rights reserved.
+  </div>
+</body>
+</html>
